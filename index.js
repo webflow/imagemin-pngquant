@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isPng = require('is-png');
-const pngquant = require('pngquant-bin');
+const pngquant = require('pngquant-bin-static');
 
 module.exports = opts => buf => {
 	opts = Object.assign({}, opts);

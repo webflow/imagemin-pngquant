@@ -42,7 +42,7 @@
   "dependencies": {
     "exec-buffer": "^3.0.0",
     "is-png": "^1.0.0",
-    "pngquant-bin": "^3.0.0"
+    "pngquant-bin-static": "git://github.com/webflow/pngquant-bin-static.git#1dd745d5ef1efc294fdc98d1536898ff6fe5d0ce"
   },
   "devDependencies": {
     "ava": "*",
